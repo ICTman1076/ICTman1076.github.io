@@ -2,7 +2,7 @@
 <h1>Plasticify Text</h1>
 <textarea name="plastic" id="plastic">A useless shitpost</textarea>
 <button name="clicky" id="clicky">Plasticify</button>
-<script>
+<script defer>
 $( "#clicky" ).click(function() {
   var before = $("#plastic").val();
   var beforearr = before.split(" ");
@@ -13,7 +13,7 @@ $( "#clicky" ).click(function() {
   $("#plastic").val(after);
 });
 </script>
-<br/><br/>
+<br/><br/><!--
 <textarea name="plastic" id="deplastic">Ae uselesse shitposte</textarea>
 <button name="declicky" id="declicky">De-Plasticify</button>
 <script>
@@ -29,4 +29,4 @@ $( "#declicky" ).click(function() {
   });
   $("#deplastic").val(after);
 });
-</script>
+</script>-->
