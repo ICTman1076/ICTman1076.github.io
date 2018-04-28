@@ -13,3 +13,20 @@ $( "#clicky" ).click(function() {
   $("#plastic").val(after);
 });
 </script>
+<br/><br/>
+<textarea name="plastic" id="deplastic">Ae uselesse shitposte</textarea>
+<button name="declicky" id="declicky">De-Plasticify</button>
+<script>
+$( "#declicky" ).click(function() {
+  var before = $("#deplastic").val();
+  var beforearr = before.split(" ");
+  var after="";
+  $.each(beforearr, function( index, value ) {
+    var ting = value.substr(value.length - 1);
+    if(ting="e"){
+      after += value.substr(0, value.length-2);+" ";
+    }
+  });
+  $("#deplastic").val(after);
+});
+</script>
