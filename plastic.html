@@ -8,7 +8,7 @@ $( "#clicky" ).click(function() {
   var beforearr = before.split(" ");
   var after="";
   $.each(beforearr, function( index, value ) {
-    after += " "+value;
+    after += value+"e ";
   });
   $("#plastic").val(after);
 });
