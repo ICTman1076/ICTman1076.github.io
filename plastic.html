@@ -23,7 +23,7 @@ $( "#declicky" ).click(function() {
   var after="";
   $.each(beforearr, function( index, value ) {
     var ting = value.substr(value.length - 1);
-    if(ting="e"){
+    if(ting=="e"){
       after += value.substr(0, value.length-2);+" ";
     }
   });
