@@ -1,0 +1,15 @@
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<h1>Plasticify Text</h1>
+<textarea name="plastic" id="plastic">A useless shitpost</textarea>
+<button name="clicky" id="clicky">Plasticify</button>
+<script>
+$( "#clicky" ).click(function() {
+  var before = $("#plastic").val();
+  var beforearr = before.split(" ");
+  var after="";
+  $.each(beforearr, function( index, value ) {
+    after += " "+value;
+  });
+  $("#plastic").val(after);
+});
+</script>
