@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ictman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ictman1076.github.io
+  * I am ictman (https://keybase.io/ictman) on keybase.
+  * I have a public key ASAjViEdV6iz99ZfMKn1Xw3IkCC9izjJGS9HLlZeAxes1wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120450f7ab63bb5ee5b7d39e5437ee5d598bae073ce70b6b965ed06810871b8bbe70a",
+      "host": "keybase.io",
+      "kid": "01202356211d57a8b3f7d65f30a9f55f0dc89020bd8b38c9192f472e565e0317acd70a",
+      "uid": "20a7eece9fc44701a03cd028d73b9119",
+      "username": "ictman"
+    },
+    "merkle_root": {
+      "ctime": 1527700018,
+      "hash": "1921db02cd77959145720c28dc578f6dd9dad41d6e1bc4a5e5a308e61f65005bda3ac373c4f3e6edb3cd735d03a739db50d57c64ccc562f97f2fbd494bd0a3fc",
+      "hash_meta": "ea6fb9e70fce88efe6d9dd6bed4e093a5fda7806acf947d95105e0a7a0ab1e94",
+      "seqno": 2963285
+    },
+    "service": {
+      "entropy": "o2At2OmZ+Tt8OrSusmIicVwt",
+      "hostname": "ictman1076.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.48"
+  },
+  "ctime": 1527696431,
+  "expire_in": 504576000,
+  "prev": "875ab2e516881fbbd10404bb0b89f1e01ec266341801cf310e06a806e8275308",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgI1YhHVeos/fWXzCp9V8NyJAgvYs4yRkvRy5WXgMXrNcKp3BheWxvYWTESpcCIMQgh1qy5RaIH7vRBAS7C4nx4B7CZjQYAc8xDgaoBugnUwjEIJV6R3W8FVIZv28RQ/Z3z9GOjZ8mmJUSnYBx+YADhNMtAgHCo3NpZ8RAUpozhtapf6vS9WUjn87dgNKBuQW5g+ajQ9fCccXRin7KF8/Clngt7vl2qXc2eBHV6Md4GO8TvcPIRshG8ruABKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJmEA81Bui2EQyuCf17QH2YVwqUCW+7cTaIHMWFaB1tpo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ictman
+
+==================================================================
